@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">FizzDrive electric coupe</title>
+  <desc id="desc">A low, glossy orange-red electric coupe with dark glass and black alloy wheels.</desc>
+  <defs>
+    <linearGradient id="paint" x1=".15" y1=".1" x2=".82" y2=".95">
+      <stop offset="0" stop-color="#ffb16e"/>
+      <stop offset=".23" stop-color="#ff7042"/>
+      <stop offset=".62" stop-color="#ef4928"/>
+      <stop offset="1" stop-color="#8e2119"/>
+    </linearGradient>
+    <linearGradient id="glass" x1=".2" y1="0" x2=".75" y2="1">
+      <stop stop-color="#35434b"/>
+      <stop offset=".5" stop-color="#151d22"/>
+      <stop offset="1" stop-color="#090d10"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f3f0e9"/>
+      <stop offset=".45" stop-color="#8e9699"/>
+      <stop offset="1" stop-color="#34393b"/>
+    </linearGradient>
+    <radialGradient id="floor">
+      <stop stop-color="#ff6038" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ff6038" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="20"/>
+      <feOffset dy="22"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".5"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <ellipse cx="606" cy="598" rx="510" ry="78" fill="url(#floor)"/>
+  <g filter="url(#shadow)">
+    <path d="M111 471c21-27 66-46 128-61l154-35 94-103c31-34 75-50 133-52l149 4c63 2 112 25 153 73l69 81 102 26c28 7 49 26 55 54l8 39c3 16-7 29-24 33l-95 18-31-34-31-20-51-6H265l-66 28-80-6c-20-2-31-15-28-34l4-24c1-12 7-24 16-31Z" fill="url(#paint)" stroke="#ffb27d" stroke-opacity=".38" stroke-width="4"/>
+    <path d="m457 366 79-86c20-22 49-34 88-36l74 1-1 121H457Z" fill="url(#glass)" stroke="#ffd3af" stroke-opacity=".46" stroke-width="3"/>
+    <path d="m719 244 47 1c56 2 97 20 132 62l47 58-226 1Z" fill="url(#glass)" stroke="#ffd3af" stroke-opacity=".4" stroke-width="3"/>
+    <path d="m712 249 4 117" fill="none" stroke="#ffb580" stroke-opacity=".48" stroke-width="4"/>
+    <path d="M172 425c96-29 198-48 288-55m302 58c117-14 226-14 321 1" fill="none" stroke="#ffd1ae" stroke-opacity=".34" stroke-width="4"/>
+    <path d="M451 369c-72 21-133 51-179 97m452-90c69-10 147-10 226 0" fill="none" stroke="#a3261e" stroke-opacity=".58" stroke-width="5"/>
+    <path d="M973 375c31 7 60 15 83 25" fill="none" stroke="#fff0da" stroke-width="9" stroke-linecap="round"/>
+    <path d="m130 464 112-22-31 32-86 16c-12 2-18-3-16-11 2-6 8-12 21-15Z" fill="#ffe8d1"/>
+    <path d="m1030 471 82 4-8 22-83 8" fill="none" stroke="#ffad7b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M548 455h134" fill="none" stroke="#761e19" stroke-opacity=".52" stroke-width="4"/>
+    <path d="M205 516c153 15 588 19 790-1" fill="none" stroke="#ffd1a5" stroke-opacity=".34" stroke-width="4"/>
+    <g>
+      <circle cx="335" cy="500" r="87" fill="#111416" stroke="#ffad77" stroke-width="5"/>
+      <circle cx="335" cy="500" r="60" fill="#262d30" stroke="url(#metal)" stroke-width="7"/>
+      <circle cx="335" cy="500" r="15" fill="#e2e0d8"/>
+      <path d="M335 447v38m0 30v38m53-53h-38m-30 0h-38m90-37-27 27m-21 21-27 27m75 0-27-27m-21-21-27-27" fill="none" stroke="url(#metal)" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="335" cy="500" r="7" fill="#ff6038"/>
+    </g>
+    <g>
+      <circle cx="862" cy="500" r="87" fill="#111416" stroke="#ffad77" stroke-width="5"/>
+      <circle cx="862" cy="500" r="60" fill="#262d30" stroke="url(#metal)" stroke-width="7"/>
+      <circle cx="862" cy="500" r="15" fill="#e2e0d8"/>
+      <path d="M862 447v38m0 30v38m53-53h-38m-30 0h-38m90-37-27 27m-21 21-27 27m75 0-27-27m-21-21-27-27" fill="none" stroke="url(#metal)" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="862" cy="500" r="7" fill="#ff6038"/>
+    </g>
+  </g>
+</svg>

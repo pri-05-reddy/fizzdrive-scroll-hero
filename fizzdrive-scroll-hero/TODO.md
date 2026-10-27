@@ -1,0 +1,8 @@
+# ToDo
+
+- [x] **Hero layout and first-screen content** — The hero section should occupy the first screen (above the fold). Display a letter-spaced headline similar to “W E L C O M E I T Z F I Z Z”. Below the headline, show impact metrics/statistics (percentages with short descriptions). The approved headline is “WELCOME ITZ FIZZ”, with all four reference metrics, and the page is responsive.
+- [x] **Initial load animation** — On page load, the headline appears smoothly with a staggered reveal. The statistics animate in one by one with a subtle delay. Entrances use soft fades and slight movement.
+- [x] **Scroll-based animation** — The hero responds to page scroll. As the user scrolls, the main visual element moves smoothly based on scroll position. Motion is tied to scroll progress, not time-based autoplay. Eased interpolation is implemented with GSAP ScrollTrigger scrub.
+- [x] **Motion performance and accessibility** — Animations use performant transform properties and avoid scroll-time layout reflows. The page includes semantic content and respects reduced-motion preferences.
+- [x] **Executable frontend code** — Use HTML, CSS, JavaScript, GSAP, Next.js/React.js and Tailwind. Keep the code clean, readable and well-structured. The implementation is a statically exported Next.js/React application using TypeScript (compiled to JavaScript), Tailwind CSS and GSAP, with npm install, dev, lint, typecheck and build commands.
+- [ ] **Live webpage and repository links** — Host the project on a free platform (GitHub Pages preferred). Submission must include a link to the live webpage and a link to the GitHub repository. The GitHub Pages workflow is included; live publishing and repository creation/connection are still pending.
